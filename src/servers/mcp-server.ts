@@ -253,7 +253,8 @@ async function ensureWorkerConnection(): Promise<boolean> {
  */
 const tools = [
   {
-    name: '__IMPORTANT',
+    // name: '__IMPORTANT', 
+    name: '__IMPO',
     description: `3-LAYER WORKFLOW (ALWAYS FOLLOW):
 1. search(query) → Get index with IDs (~50-100 tokens/result)
 2. timeline(anchor=ID) → Get context around interesting results
